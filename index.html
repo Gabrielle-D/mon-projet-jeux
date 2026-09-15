@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mes jeux vidéos</title>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+            <h1>Gestionnaire de jeux videos</h1>
+    </header>
+    <main>
+
+        <section>
+            <h2>Modification des jeux</h2>
+            <form onsubmit="modifierCarte(event)">
+                <input id="nom"
+                    type="text"
+                    id="champ-nom"
+                    value="Five Nights at Freddy's"
+                    placeholder="Nom"/>
+
+                <input id="createur"
+                    type="text"
+                    id="champ-createur"
+                    value="Scott Cawthon"
+                    placeholder="Créateur"/>
+
+                <input id="annee"
+                    tyaceholder="Année"/>
+
+                <input id="prix"
+                    type="text"
+                    id="champ-prix"
+                    value="4.29"
+                    step="0.01"
+                    placeholder="Prix (€)"/>
+
+                <button>Mettre à jour les informations</button>
+            </form>
+        </section>
+
+        <section>
+
+            <h2>Carte 1</h2>
+                <div>
+                    <div>
+                        <h3 id="nom-jeu">
+                        Five Nights at Freddy's
+                        </h3>
+                        <p id="createur-annee-nom">
+                        Scott Cawthon (2014)
+                        </p>
+                    </div>
+                <span id="prix-jeu">4.29 €</span>
+            </div>
+
+      </section>
+    </main>
+
+  </body>
+</html>
