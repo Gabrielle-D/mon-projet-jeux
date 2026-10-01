@@ -26,3 +26,4 @@ function modifierCarte(event){
     anneeZone.textContent = anneeInput.value;
     prixZone.textContent = prixInput.value;
 }
+
